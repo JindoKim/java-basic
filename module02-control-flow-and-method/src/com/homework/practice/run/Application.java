@@ -9,6 +9,7 @@ public class Application {
         ConditionPratice pra = new ConditionPratice();
         pra.pratice1();
         pra.pratice2();
+        pra.pratice9();
     }
 
 
