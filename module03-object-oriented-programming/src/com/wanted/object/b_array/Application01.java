@@ -19,8 +19,6 @@ public class Application01 {
         *
         * */
 
-        int i = 0;
-        System.out.println(i);
 
         int[] iarr = new int[5]; //0기본값으로 채워짐. because heap공간에 할당되기에 값이 무조건 들어가야하기때문이다.
         System.out.println("iarr = " + iarr);
