@@ -19,7 +19,6 @@ public class Application01 {
         *
         * */
 
-
         int[] iarr = new int[5]; //0기본값으로 채워짐. because heap공간에 할당되기에 값이 무조건 들어가야하기때문이다.
         System.out.println("iarr = " + iarr);
         System.out.println("iarr 의 길이 = " + iarr.length); //배열의 length 는 변수. String 의 length() 는 메소드로 되어있음.
