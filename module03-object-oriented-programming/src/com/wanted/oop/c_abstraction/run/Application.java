@@ -35,6 +35,8 @@ public class Application {
         * 4. 시동을 꺼라
         * */
 
+        // Application 에서는 CarRacer 명령을 내릴 것이다.
+        CarRacer racer = new CarRacer();
 
         // 콘솔 게임을 만들기 위해 사용자 입력을 전달받기 위한 Scanner 객체 선언
         Scanner sc = new Scanner(System.in);
@@ -45,17 +47,21 @@ public class Application {
             System.out.println("3. 정지");
             System.out.println("4. 시동끄기");
             System.out.println("9. 프로그램 종료");
-            System.out.print("번호를 입력해주세요 : ");
+            System.out.print("메뉴를 선택해주세요 : ");
 
             int no = sc.nextInt();
             switch (no) {
                 case 1:
+                    racer.startUp();
                     break;
                 case 2:
+                    racer.stepAccel();
                     break;
                 case 3:
+                    racer.stepBreak();
                     break;
                 case 4:
+                    racer.turnOff();
                     break;
                 case 9:
                     System.out.println("프로그램을 종료합니다.");
