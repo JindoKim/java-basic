@@ -11,7 +11,7 @@ public class Application {
 
         // 1번 몬스터 생성
         Monster monster1 = new Monster();
-        monster1.setName("또도가스");
+        monster1.setName("진도몬스터");
         monster1.setHp(200);
         System.out.println(monster1.getInfo());
 
