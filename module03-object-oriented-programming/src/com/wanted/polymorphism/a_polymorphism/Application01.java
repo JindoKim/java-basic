@@ -51,6 +51,8 @@ public class Application01 {
 //        a1.btie();
 
         System.out.println("===============클래스 형변환=============");
+//        a1.bite();
+//        a2.sleep();
         ((Raccoon) a1).bite();
         ((Koala) a2).sleep();
 

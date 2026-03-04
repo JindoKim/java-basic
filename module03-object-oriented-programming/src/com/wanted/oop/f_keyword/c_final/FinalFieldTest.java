@@ -8,13 +8,14 @@ public class FinalFieldTest {
     * 해주어야 한다.
     *
     * */
-//    private final int NON_STATIC_NUM;
+//  private final int NON_STATIC_NUM;
     //1. final 키워드는 선언과 동시에 초기화
     private final int NON_STATIC_NUM = 1;
     //2. 생성자를 이용한 초기화를 할 수 있다.
     private final String NON_STATIC_NAME;
 
-    public FinalFieldTest(String name) {
+    public FinalFieldTest(String name)
+    {
         this.NON_STATIC_NAME = name;
     }
 }

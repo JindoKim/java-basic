@@ -18,5 +18,6 @@ public class OverloadingTest {
     public void test(int num, String str) {}
     //매개변수의 순서에 따른 오버로딩 성립 확인
     public void test(String str, int num) {}
+    
 
     }
