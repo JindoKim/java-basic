@@ -8,7 +8,7 @@ public class Application01 {
     public static void main(String[] args) {
         /*
         * comment.  Set 자료구조의 특징
-        *  1. 요소이 저장 순서를 유지하지 않는다.
+        *  1. 요소의 저장 순서를 유지하지 않는다.
         *  2. 같은 요소의 중복저장을 허용하지 않는다. (null도 단 1개의 null 만 들어간다.)
         * */
 

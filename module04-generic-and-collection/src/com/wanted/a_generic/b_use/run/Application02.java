@@ -34,7 +34,7 @@ public class Application02 {
         System.out.println("===========================================");
         wfarm.superType(new RabbitFarm<Rabbit> (new Rabbit())); //뒤에서부터 계산하면됌.
         wfarm.superType(new RabbitFarm<Bunny> (new Bunny()));
-//        wfarm.superType(new RabbitFarm<DrunkenBunny> ((DrunkenBunny) new Bunny()));
+//      wfarm.superType(new RabbitFarm<DrunkenBunny> ((DrunkenBunny) new Bunny()));
 
     }
 }
