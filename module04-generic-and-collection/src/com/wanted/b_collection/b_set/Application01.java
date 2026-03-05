@@ -34,7 +34,7 @@ public class Application01 {
         // 반복을 해준다.
 
         while (iter.hasNext()) {
-
+            System.out.println(iter.next());
         }
     }
 }
