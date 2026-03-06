@@ -14,7 +14,7 @@ public class TitleSort implements Comparator<BookDTO> {
 
         if (o1.getTitle().compareTo(o2.getTitle()) > o2.getTitle().compareTo(o1.getTitle())){
             result = 1;
-        } else if (o2.getPrice() > o1.getPrice()){
+        } else if (o1.getTitle().compareTo(o2.getTitle()) < o2.getTitle().compareTo(o1.getTitle())){
             result = -1;
         } else {
             result = 0;
